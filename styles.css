@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background-color: #19abff;
+    background: linear-gradient(#151f52, #132044);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -45,11 +45,11 @@ header p {
 }
 
 .btn-primary {
-    background-color: #ff9501;
+    background-color: #FF873D;
 }
 
 .btn-secondary {
-    background-color: #ff9501;
+    background-color: #FF873D;
 }
 
 .btn-primary:hover {
@@ -63,14 +63,14 @@ header p {
 /* Seção de Funcionalidades */
 #features {
     padding: 60px 20px;
-    background-color: #f9f9f9;
+    background-color: #203752;
     text-align: center;
 }
 
 #features h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #ffffff;
 }
 
 .features-grid {
@@ -81,10 +81,10 @@ header p {
 }
 
 .feature-item {
-    background-color: #fff;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 8px #0c13315e;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     position: relative;
@@ -93,14 +93,18 @@ header p {
 }
 
 .feature-item:hover {
-    background-color: #19abff;
+    background: linear-gradient(#151f52, #132044);
     color: #fff;
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px #0c13315e;
 }
 
 .feature-item:hover p {
-    color: #fff;
+    color: #ffffff;
+}
+
+.feature-item:hover h3 {
+    color: #ffffff;
 }
 
 .feature-item img {
@@ -111,11 +115,12 @@ header p {
 .feature-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #151f52;
 }
 
 .feature-item p {
     font-size: 1rem;
-    color: #555;
+    color: #151f52;
 }
 
 @keyframes fadeIn {
@@ -132,20 +137,21 @@ header p {
 /* Seção de Impacto */
 #impact {
     padding: 60px 20px;
-    background-color: #ffffff;
+    background-color: #203752;
     text-align: center;
 }
 
 #impact h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 #impact p {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
-    color: #333;
+    color: #ffffff;
 }
 
 #impact .logo {
@@ -158,14 +164,14 @@ header p {
 /* Seção de Como Funciona */
 #how-it-works {
     padding: 60px 20px;
-    background-color: #f4f4f4;
+    background-color: #203752;
     text-align: center;
 }
 
 #how-it-works h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #ffffff;
 }
 
 .steps-grid {
@@ -187,7 +193,7 @@ header p {
 }
 
 .step-item:hover {
-    background-color: #19abff;
+    background: linear-gradient(#151f52, #132044);
     color: #fff;
     transform: translateY(-10px);
 }
@@ -205,11 +211,16 @@ header p {
 .step-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #151f52;
 }
 
 .step-item p {
     font-size: 1rem;
-    color: #555;
+    color: #151f52;
+}
+
+.step-item:hover h3 {
+    color: #ffffff;
 }
 
 .step-item:hover p {
@@ -232,7 +243,7 @@ header p {
 /* Seção Quem Somos */
 #about-us {
     padding: 60px 20px;
-    background-color: #ffffff;
+    background: linear-gradient(#151f52, #132044);
     text-align: center;
 }
 
@@ -255,14 +266,14 @@ header p {
 
 #about-us h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 #about-us p {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -273,7 +284,7 @@ header p {
 /* Seção Seja um Parceiro */
 #partners {
     padding: 60px 20px;
-    background-color: #19abff;
+    background-color: #203752;
     text-align: center;
 }
 
@@ -403,14 +414,14 @@ header p {
 /* Seção de Contato */
 #contato {
     padding: 60px 20px;
-    background-color: #ffffff;
+    background: #203752;
     text-align: center;
 }
 
 #contato h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #ffffff;
 }
 
 .form-container {
@@ -447,7 +458,7 @@ header p {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #007bff;
+    border-color: #FF873D;
     outline: none;
 }
 
@@ -458,7 +469,7 @@ header p {
 }
 
 button[data-button] {
-    background-color: #19abff;
+    background-color: #FF873D;
     color: #fff;
     padding: 12px 25px;
     border: none;
@@ -498,9 +509,9 @@ button[data-button]:hover {
 
 /* Footer */
 footer {
-    background-color: #19abff;
+    background: linear-gradient(#151f52, #132044);
     color: #fff;
-    padding: 30px 20px;
+    padding: 10px 20px;
     text-align: center;
 }
 
