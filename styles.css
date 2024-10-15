@@ -147,18 +147,22 @@ header p {
     color: #ffffff;
 }
 
-#impact p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #ffffff;
-}
-
 #impact .logo {
     display: block;
     margin: 0 auto;
     max-width: 150px;
     margin-bottom: 20px;
+}
+
+#impact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#impact p:last-child {
+    margin-bottom: 0;
 }
 
 /* Seção de Como Funciona */
