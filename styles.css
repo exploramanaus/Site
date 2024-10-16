@@ -290,11 +290,6 @@ header p {
     text-align: center;
 }
 
-#partners .container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 #partners h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -307,20 +302,28 @@ header p {
     margin-bottom: 40px;
 }
 
+#partners .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .partner-slider {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    flex-wrap: wrap; 
 }
 
 .partner-logo {
-    flex: 0 0 150px;
-    margin: 0 70px;
+    flex: 0 1 150px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .partner-logo img {
-    max-width: 200px;
+    max-width: 100%; 
     height: auto;
     transition: transform 0.3s ease;
 }
