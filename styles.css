@@ -13,20 +13,20 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(#0b1e80, #0c2049);
+    background: linear-gradient(#0b1e80, #132168, #0c2049);
     color: #fff;
-    padding: 60px 20px;
+    padding: 100px 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .cta-buttons {
@@ -63,7 +63,7 @@ header p {
 /* Seção de Funcionalidades */
 #features {
     padding: 60px 20px;
-    background-color: #12355e;
+    background: linear-gradient(#0c2049, #12355e);
     text-align: center;
 }
 
@@ -243,7 +243,7 @@ header p {
 /* Seção Quem Somos */
 #about-us {
     padding: 60px 20px;
-    background: linear-gradient(#0b1e80, #0c2049);
+    background: linear-gradient(#0b1e80, #132168, #0c2049);
     text-align: center;
 }
 
@@ -284,7 +284,7 @@ header p {
 /* Seção Seja um Parceiro */
 #partners {
     padding: 60px 20px;
-    background-color: #12355e;
+    background: linear-gradient(#0c2049, #12355e);
     text-align: center;
 }
 
