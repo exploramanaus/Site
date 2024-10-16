@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(#151f52, #132044);
+    background: linear-gradient(#0b1e80, #0c2049);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -45,25 +45,25 @@ header p {
 }
 
 .btn-primary {
-    background-color: #FF873D;
+    background-color: #ff8513;
 }
 
 .btn-secondary {
-    background-color: #FF873D;
+    background-color: #ff8513;
 }
 
 .btn-primary:hover {
-    background-color: #00d974;
+    background-color: #00db63;
 }
 
 .btn-secondary:hover {
-    background-color: #00d974;
+    background-color: #00db63;
 }
 
 /* Seção de Funcionalidades */
 #features {
     padding: 60px 20px;
-    background-color: #203752;
+    background-color: #12355e;
     text-align: center;
 }
 
@@ -93,7 +93,7 @@ header p {
 }
 
 .feature-item:hover {
-    background: linear-gradient(#151f52, #132044);
+    background: linear-gradient(#0b1e80, #0c2049);
     color: #fff;
     transform: translateY(-10px);
     box-shadow: 0 8px 16px #0c13315e;
@@ -137,13 +137,20 @@ header p {
 /* Seção de Impacto */
 #impact {
     padding: 60px 20px;
-    background-color: #203752;
+    background-color: #12355e;
     text-align: center;
 }
 
 #impact h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#impact p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
     color: #ffffff;
 }
 
@@ -154,21 +161,10 @@ header p {
     margin-bottom: 20px;
 }
 
-#impact p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-#impact p:last-child {
-    margin-bottom: 0;
-}
-
 /* Seção de Como Funciona */
 #how-it-works {
     padding: 60px 20px;
-    background-color: #203752;
+    background: linear-gradient(#12355e, #0b1e80);
     text-align: center;
 }
 
@@ -197,7 +193,7 @@ header p {
 }
 
 .step-item:hover {
-    background: linear-gradient(#151f52, #132044);
+    background: linear-gradient(#0b1e80, #0c2049);
     color: #fff;
     transform: translateY(-10px);
 }
@@ -247,7 +243,7 @@ header p {
 /* Seção Quem Somos */
 #about-us {
     padding: 60px 20px;
-    background: linear-gradient(#151f52, #132044);
+    background: linear-gradient(#0b1e80, #0c2049);
     text-align: center;
 }
 
@@ -288,7 +284,7 @@ header p {
 /* Seção Seja um Parceiro */
 #partners {
     padding: 60px 20px;
-    background-color: #203752;
+    background-color: #12355e;
     text-align: center;
 }
 
@@ -418,7 +414,7 @@ header p {
 /* Seção de Contato */
 #contato {
     padding: 60px 20px;
-    background: #203752;
+    background: linear-gradient(#12355e, #0b1e80);
     text-align: center;
 }
 
@@ -473,7 +469,7 @@ header p {
 }
 
 button[data-button] {
-    background-color: #FF873D;
+    background-color: #ff8513;
     color: #fff;
     padding: 12px 25px;
     border: none;
