@@ -284,7 +284,7 @@ header p {
 /* Seção Seja um Parceiro */
 #partners {
     padding: 60px 20px;
-    background: linear-gradient(#0c2049, #12355e);
+    background: linear-gradient(#0c2049, #0b1e80);
     text-align: center;
 }
 
@@ -414,7 +414,7 @@ header p {
 /* Seção de Contato */
 #contato {
     padding: 60px 20px;
-    background: linear-gradient(#12355e, #0b1e80);
+    background: linear-gradient(#0b1e80, #0b1e80, #12355e);
     text-align: center;
 }
 
