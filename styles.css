@@ -308,28 +308,29 @@ header p {
 }
 
 .partner-slider {
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: space-around; 
     align-items: center;
-    overflow: hidden;
     flex-wrap: wrap; 
 }
 
 .partner-logo {
-    flex: 0 1 150px;
-    margin: 0 20px;
+    flex: 0 1 150px; 
+    margin: 10px; 
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .partner-logo img {
-    max-width: 100%; 
-    height: auto;
-    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 
 .partner-logo img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
+    opacity: 0.9; 
 }
 
 /* seção de equipe */
