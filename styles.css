@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
@@ -9,6 +10,7 @@ body {
     color: #333;
     background-color: #f4f4f9;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -255,8 +257,8 @@ header p {
 #about-us .mascote {
     display: block;
     margin: 0 auto;
-    max-width: 400px;
-    margin-bottom: 20px;
+    max-width: 90%;
+    margin-bottom: 15px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -533,7 +535,7 @@ footer p {
 @media (max-width: 1200px) {
     /* Header */
     header h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
     
     header p {
@@ -552,11 +554,15 @@ footer p {
     }
 
     header h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     header p {
         font-size: 1rem;
+    }
+
+    #features h2, #impact h2, #how-it-works h2, #about-us h2, #team h2, #partners h2, #contato h2 {
+        font-size: 2rem;
     }
 
     /* Features */
@@ -584,11 +590,15 @@ footer p {
 @media (max-width: 768px) {
     /* Header */
     header h1 {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
     
     header p {
         font-size: 1rem;
+    }
+
+    #features h2, #impact h2, #how-it-works h2, #about-us h2, #team h2, #partners h2, #contato h2 {
+        font-size: 2rem;
     }
 
     .cta-buttons {
@@ -664,9 +674,12 @@ footer p {
 }
 
 @media (max-width: 430px) {  
-    /* Header */
+    html, body {
+        overflow-x: hidden;
+    }
+
     header h1 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     
     header p {
@@ -676,26 +689,25 @@ footer p {
     .cta-buttons {
         flex-direction: column;
         gap: 15px;
+        width: 100%;
     }
 
     .cta-buttons a {
         width: 100%;
         padding: 10px 20px;
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
-    /* Features */
-    .features-grid {
+    .features-grid, .team-grid {
         grid-template-columns: 1fr;
     }
 
-    /* Team */
-    .team-grid {
-        grid-template-columns: 1fr; 
+    .feature-item, .team-card {
+        padding: 10px;
     }
 
-    .team-card {
-        padding: 10px;
+    #features h2, #impact h2, #how-it-works h2, #about-us h2, #team h2, #partners h2, #contato h2 {
+        font-size: 1.5rem;
     }
 
     .team-card h3 {
