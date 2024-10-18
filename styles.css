@@ -223,14 +223,6 @@ header p {
     text-align: center;
 }
 
-.example-container img {
-    max-width: 100%;
-    max-height: 400px;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-}
-
 /* Estilos do Carrossel */
 .carousel-control-prev, .carousel-control-next {
     width: 5%;
@@ -240,16 +232,16 @@ header p {
     bottom: -30px;
 }
 
-/* Centralizar as imagens no carrossel */
 .carousel-inner {
     text-align: center;
 }
   
 .carousel-item img {
-    margin: 0 auto;
-    max-height: 400px; /* Defina uma altura máxima para as imagens */
-    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
-} 
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    object-fit: cover; 
+}
 
 /* Seção Quem Somos */
 #about-us {
