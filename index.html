@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-p8gCkC6N5Z4mrmsSRHW+xqFAY9q98cB9NPw7F3S9l/S/52D2gPzM1I9vwsfsDwD2X8Fla3f0Lbb8Wq7MTH73lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -14,7 +15,7 @@
     <header>
         <div class="container">
             <h1>Explora Manaus</h1>
-            <p>Uma plataforma que permite usuários compartilharem eventos, locais e tudo o que acontece na cidade de Manaus</p>
+            <p>Uma plataforma que conecta usuários para compartilhar eventos, lugares e tudo o que acontece na cidade de Manaus.            </p>
             <div class="cta-buttons">
                 <a href="#explore" class="btn-primary">Explorar Agora</a>
                 <a href="#contribua" class="btn-secondary">Contribua com o Mapa</a>
@@ -29,7 +30,7 @@
                     <div class="feature-item">
                         <img src="user-icon.png" alt="Cadastro de Usuários">
                         <h3>Cadastro de Usuários</h3>
-                        <p>Qualquer pessoa pode se cadastrar e adicionar suas próprias contribuições ao mapa.</p>
+                        <p>Faça o cadastro e adicione seus próprios marcadores ao mapa, compartilhando eventos ou locais que você recomenda!</p>
                     </div>
                     <div class="feature-item">
                         <img src="marker-icon.png" alt="Adição de Marcadores">
@@ -54,12 +55,9 @@
             <div class="container">
                 <img src="logo-explora-manaus.png" alt="Logo Explora Manaus" class="logo">
                 <h2>Por Que Explora Manaus?</h2>
-                <p>
-                    O Explora Manaus nasce da nossa percepção de que os moradores da cidade enfrentam dificuldades em encontrar informações centralizadas sobre eventos, pontos turísticos e atividades locais. Frequentemente, essas informações estão dispersas pela internet, tornando a busca por eventos ou lugares de interesse um processo demorado e frustrante.
-                </p>
-                <br>
-                <p>
-                    Nossa plataforma visa fortalecer a conexão entre os moradores e a cidade, além de fomentar o engajamento da comunidade com a cena cultural e social de Manaus.
+                <p>O Explora Manaus surgiu da dificuldades em encontrar informações centralizadas sobre eventos, pontos turísticos e atividades locais. 
+                    Muitas vezes, essas informações estão espalhadas pela internet, tornando a busca por eventos ou lugares de interesse um processo demorado e frustrante.
+                    Com nossa plataforma, queremos fortalecer a conexão entre os moradores e a cidade, além de incentivar o engajamento da comunidade com a cena cultural local.
                 </p>
             </div>
         </section>
@@ -67,40 +65,62 @@
         <section id="how-it-works">
             <div class="container">
                 <h2>Como Funciona?</h2>
-                <div class="steps-grid">
-                    <div class="step-item" onclick="showExample('step1')">
+                <div class="features-grid">
+                    <div class="feature-item">
                         <h3>1. Explore o Mapa</h3>
-                        <p>Navegue pelo mapa dinâmico e descubra pontos de interesse marcados por outros usuários.</p>
+                        <p>Navegue pelo mapa e descubra pontos de interesse marcados por outros usuários.</p>
                     </div>
-                    <div class="step-item" onclick="showExample('step2')">
+                    <div class="feature-item">
                         <h3>2. Adicione Contribuições</h3>
                         <p>Faça o cadastro e adicione seus próprios marcadores, eventos ou locais de interesse.</p>
                     </div>
-                    <div class="step-item" onclick="showExample('step3')">
+                    <div class="feature-item">
                         <h3>3. Aplique Filtros</h3>
                         <p>Use filtros personalizados para encontrar exatamente o que você procura.</p>
                     </div>
-                    <div class="step-item" onclick="showExample('step4')">
+                    <div class="feature-item">
                         <h3>4. Compartilhe</h3>
                         <p>Compartilhe suas descobertas nas redes sociais e ajude a comunidade a explorar Manaus.</p>
                     </div>
                 </div>
-                <div id="example-container" class="example-container">
-                    <img id="example-image" src="" alt="Exemplo" style="display: none;">
+        
+                <!-- Carrossel de Imagens Refatorado -->
+                <div id="carouselExampleIndicators" class="carousel slide mt-5">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/p0.jpg" class="d-block w-100" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/p1.jpg" class="d-block w-100" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/p2.jpg" class="d-block w-100" alt="Imagem 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
             </div>
         </section>
 
         <section id="about-us">
             <div class="container">
                 <img src="azulinho.png" alt="Mascote" class="mascote">
-                <h2>Quem Somos?</h2>
-                <p>
-                    Somos um grupo de estudantes da Faculdade Metropolitana de Manaus (FAMETRO), cursando o 4º período do bacharelado em Sistemas de Informação. Nossa equipe é formada por entusiastas da tecnologia e da inovação, motivados pela ideia de criar uma solução que atenda às necessidades dos habitantes de Manaus.
-                </p>
-                <p>
-                    Identificamos uma demanda crescente por uma plataforma que centralize informações sobre eventos locais. Com frequência, as pessoas enfrentam dificuldades em encontrar eventos na cidade, percorrendo diversas fontes na internet. Portanto, nosso objetivo é desenvolver um espaço onde todos possam facilmente acessar, descobrir e compartilhar informações sobre os eventos que acontecem em Manaus, promovendo um maior engajamento da comunidade e uma experiência mais rica para os moradores.
-                </p>
+                <h2>Nosso Objetivo</h2>
+                <p>Identificamos a necessidade de uma plataforma que centralize informações sobre eventos locais, pois muitos têm dificuldades em encontrá-los na cidade. 
+                    Nosso objetivo é criar um espaço onde todos possam acessar, descobrir e compartilhar facilmente eventos em Manaus, promovendo o engajamento da comunidade e enriquecendo a experiência dos moradores.</p>
             </div>
         </section>
 
@@ -329,6 +349,9 @@
                 exampleImage.style.display = 'block';
             }            
         </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
  
 </body>
 </html>
